@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name flabbergast)(type KiCad)(uri /home/lieven/kicad/kicad/flabbergast.pretty)(options "")(descr ""))
+  (lib (name nodemcu)(type KiCad)(uri /home/lieven/kicad/kicad-lib/nodemcu.pretty)(options "")(descr ""))
+  (lib (name limero-lib)(type KiCad)(uri /home/lieven/kicad/limero-lib.pretty)(options "")(descr ""))
+)
