@@ -118,6 +118,11 @@ D UEXT connector (10 pin)
 K connector
 $ENDCMP
 #
+$CMP UEXT-5V
+D UEXT connector (10 pin)
+K connector
+$ENDCMP
+#
 $CMP UEXT-BREADBOARD
 D UEXT connector (10 pin)
 K connector
