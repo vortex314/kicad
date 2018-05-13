@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:atx24
 LIBS:ab2_power
+LIBS:atx
 LIBS:limero-cache
 EELAYER 25 0
 EELAYER END
@@ -137,4 +138,26 @@ Connection ~ 3400 2700
 Wire Wire Line
 	4350 2500 4500 2500
 Connection ~ 4500 2700
+$Comp
+L ATX_24PIN J3
+U 1 1 5AE5E4F5
+P 6050 2850
+F 0 "J3" H 6050 2200 60  0000 C CNN
+F 1 "ATX_24PIN" H 6050 3500 60  0000 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5556-24A_2x12x4.20mm_Straight" H 6050 3500 60  0001 C CNN
+F 3 "" H 6050 3500 60  0000 C CNN
+	1    6050 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1850 5350 1850
+Wire Wire Line
+	3600 1850 3600 2300
+Wire Wire Line
+	3600 2300 3650 2300
+Wire Wire Line
+	5350 1850 5350 2300
+Wire Wire Line
+	5350 2300 5600 2300
+Connection ~ 3600 1850
 $EndSCHEMATC
